@@ -279,4 +279,22 @@ img {
 
 /*fine settima sezione*/
 
+/*ottava sezione*/
+
+.eight_section {
+    background-image: linear-gradient(180deg, #0041bc, #01209b);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.eight_section h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.eight_section button {
+    color: #046dff;
+    border-color: #046dff;
+}
+
 /*FIfNE MAIN*/
