@@ -62,9 +62,10 @@ img {
     font-size: 45px;
 }
 
-.wrapper {
+.jumbo .wrapper {
     padding: 50px 0;
-    /* width: 93%; */
+    
+    margin: 0 auto;
 }
 
 .form_custom {
@@ -131,4 +132,50 @@ img {
     color: #086fff;
 }
 
+/*fine section:images*/
+
+/*third section*/
+.third_section {
+    text-align: center;
+    padding: 25px;
+}
+
+.third_section h3 {
+    color: #031d4e;
+}
+
+.third_section p {
+    color: #5d6a88;
+}
+
+.third_section .menu li {
+    display: block;
+    text-align: left;
+    padding: 5px 0;
+    border-left: 1px solid #cccccc ;
+    
+}
+
+.third_section .menu li a {
+     color:#75809a;
+     padding-left: 5px;
+     
+}
+
+.third_section .wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.third_section  p {
+    padding-bottom: 50px;
+}
+.sub_col img {
+    width: 18%;
+}
+
+.inner_content {
+    width: 50%;
+}
+/*fine third section*/
 /*FINE MAIN*/
