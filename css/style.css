@@ -77,8 +77,12 @@ body {
 
 .form_custom span {
     color: #086fff;
+    
+}
+.form_custom span:nth-child(1) {
     text-decoration: underline;
 }
+
 
 .form_custom button.google {
     margin: 10px 0;
