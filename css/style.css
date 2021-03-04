@@ -1,7 +1,10 @@
+/*COMMON*/
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*HEADER*/
 .logo img {
     width: 150px;
 }
@@ -29,8 +32,6 @@ body {
     font-size: 12px;
 }
 
-
-
 .header_nav li button {
     color: #086fff;
     border-color: #086fff;
@@ -39,3 +40,52 @@ body {
 .burger {
     color:#086fff ;
 }
+
+/*FINE HEADER*/
+
+/*MAIN*/
+
+.jumbo {
+    background-image: url(../img/ms-jumbo.jpg);
+}
+
+.teaser {
+    color: white;
+  
+}
+
+.teaser h1 {
+    font-size: 45px;
+}
+
+.wrapper {
+    padding: 50px 0;
+}
+
+.form_custom {
+    width: 85%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.form_custom button {
+    width: 100%;
+    background-color: #579aff;
+    border: none;
+}
+
+.form_custom span {
+    color: #086fff;
+    text-decoration: underline;
+}
+
+.form_custom button.google {
+    margin: 10px 0;
+    background-color: white;
+    color: #767676;
+    border: none;
+    box-shadow: 1px 1px 1px #767676;
+}
+
+/*FINE MAIN*/
