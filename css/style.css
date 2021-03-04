@@ -4,24 +4,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+}
 /*HEADER*/
 .logo img {
     width: 150px;
 }
 
 .header_nav {
-    padding: 20px;
+    padding: 15px;
 }
 
-.header_nav .menu {
+ .menu {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .header_nav .menu.central {
     padding-top: 6px;
 }
 
-.header_nav .menu li {
+.menu li {
     display: inline-block;
 }
 
@@ -60,10 +64,11 @@ body {
 
 .wrapper {
     padding: 50px 0;
+    /* width: 93%; */
 }
 
 .form_custom {
-    width: 85%;
+    
     background-color: white;
     border-radius: 5px;
     padding: 20px;
@@ -90,6 +95,40 @@ body {
     color: #767676;
     border: none;
     box-shadow: 1px 1px 1px #767676;
+}
+
+/*section:images*/
+
+.images .menu li  {
+    
+    width: calc((100% / 6) - 6px);
+    padding: 20px 0;
+}
+
+@media all and (max-width:480px) {
+    .images .menu li  {
+    
+        width: calc((100% / 2) - 6px);
+        padding: 20px 0;
+    }
+}
+
+.images {
+    background-color: #f3f5f9;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.images h3 {
+    color: #6f7b97;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.images a {
+   
+    text-decoration: none;
+    color: #086fff;
 }
 
 /*FINE MAIN*/
