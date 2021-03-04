@@ -140,7 +140,7 @@ img {
     padding: 25px;
 }
 
-.third_section h3, .fourth_section h3 {
+.third_section h3, .fourth_section h3, .fifth_section h3 {
     color: #031d4e;
 }
 
@@ -207,10 +207,35 @@ img {
     border-radius: 50%;
     height: 10px;
     width: 10px;
+    margin-bottom: 30px;
 }
 
 .fourth_section .menu li:first-child {
     background-color: #086fff;
 }
+/*fine fourth section*/
 
+/*fifth section*/
+
+.fifth_section {
+    padding-top: 30px;
+}
+
+.fifth_section h3:first-child {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.fifth_section img {
+    width: 10%;
+}
+
+.fifth_section .inner_content {
+    width: 100%;
+}
+
+.fifth_section .inner_content p:last-child {
+    color: #086fff;
+}
+/* fine fifth section*/
 /*FINE MAIN*/
