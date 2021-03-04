@@ -236,6 +236,42 @@ img {
 
 .fifth_section .inner_content p:last-child {
     color: #086fff;
+    padding-bottom: 30px;
 }
+
+.fifth img {
+    width: 50%;
+    height: auto;
+}
+
+.fourth_section.fifth {
+    text-align: center;
+}
+.inner_col {
+    background-color: white;
+    width: 60%;
+    border-radius: 7px;
+    padding-bottom: 15px;
+}
+
+.inner_col p:nth-last-child(1) {
+    padding: 5px 0;
+}
+
+.inner_col span {
+    color: #086fff;
+    
+}
+
+.fourth_section.fifth a {
+    font-size: 20px;
+    position: absolute;
+    top: 155px;
+}
+
+.fourth_section.fifth .menu {
+    padding: 20px 0;
+}
+
 /* fine fifth section*/
 /*FINE MAIN*/
