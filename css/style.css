@@ -241,6 +241,27 @@ img {
 
 /* fine fifth section*/
 
+/*sesta sezione*/
+.gradient_section .menu li {
+    display: block;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.gradient_section .menu li:last-child {
+    border-bottom: none;
+}
+
+.gradient_section .menu li a {
+    color: #00c5cd;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+/*fine sesta sezione*/
+
+
 /*settima sezione*/
 
 .seventh img {
@@ -281,18 +302,18 @@ img {
 
 /*ottava sezione*/
 
-.eight_section {
+.gradient_section {
     background-image: linear-gradient(180deg, #0041bc, #01209b);
     text-align: center;
     padding: 40px 0;
 }
 
-.eight_section h2 {
+.gradient_section h2 {
     color: white;
     padding-bottom: 10px;
 }
 
-.eight_section button {
+.gradient_section button {
     color: #046dff;
     border-color: #046dff;
 }
