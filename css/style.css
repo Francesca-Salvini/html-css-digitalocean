@@ -297,4 +297,101 @@ img {
     border-color: #046dff;
 }
 
-/*FIfNE MAIN*/
+/*FINE MAIN*/
+
+/*FOOTER*/
+
+footer {
+    background-color: #031d4e;
+    padding-bottom: 100px;
+} 
+
+footer img {
+    width: 40px;
+    height: auto;
+    padding-top: 30px ;
+}
+
+footer p {
+    color: #5c6988;
+    font-size: 11px;
+}
+
+footer .menu a {
+    color: #5c6988;
+}
+
+footer .col_menu {
+    list-style-type: none;
+}
+
+footer .col_menu li {
+    padding-top: 5px;
+    
+}
+
+footer .col_menu li:first-child {
+    padding-top: 35px;
+    
+}
+
+footer .col_menu li a {
+    text-decoration: none;
+    color: #a6adbd;
+}
+
+
+.shark_fixed  {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/shark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1px;
+    background-color: #006aff;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    
+}
+
+.shark_fixed .menu li {
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 34px;
+    right: -7px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.speech_bubbles {
+  width: 25%;
+  position: fixed;
+  bottom: -27px;
+  right: 111px;
+  padding: 15px;/*Padding*/
+  margin: 1em 0 3em;/*Margini*/
+  color: #031d4e;/*Colore del Testo*/
+  background: #D0D0D0;/*Sfondo*/
+  border-radius: 10px;/*Grandezza raggio*/
+  background: linear-gradient(top, #A0A0A0 , #D0D0D0);/* Gradienti CSS3 consentono di visualizzare transizioni uniformi tra due o più colori specificati. */
+}
+
+.speech_bubbles:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    right: -20px;
+    transform: rotate(-90deg);
+    width: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #D0D0D0 transparent;
+}
