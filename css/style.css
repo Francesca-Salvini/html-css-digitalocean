@@ -325,6 +325,7 @@ img {
 footer {
     background-color: #031d4e;
     padding-bottom: 100px;
+    
 } 
 
 footer img {
@@ -373,7 +374,7 @@ footer .col_menu li a {
     border-radius: 5px;
     position: fixed;
     bottom: 15px;
-    right: 30px;
+    right: 130px;
     
 }
 
@@ -395,7 +396,7 @@ footer .col_menu li a {
   width: 25%;
   position: fixed;
   bottom: -27px;
-  right: 111px;
+  right: 200px;
   padding: 15px;/*Padding*/
   margin: 1em 0 3em;/*Margini*/
   color: #031d4e;/*Colore del Testo*/
