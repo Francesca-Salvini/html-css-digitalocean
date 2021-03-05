@@ -241,21 +241,20 @@ img {
 /* fine fifth section*/
 
 /*sesta sezione*/
-.gradient_section .menu li {
-    display: block;
+.gradient_section p {
     color: white;
+}
+
+.gradient_section .row.sub {
     border-bottom: 1px solid white;
 }
 
-.gradient_section .menu li:last-child {
+.gradient_section .row.sub:last-child {
     border-bottom: none;
 }
 
-.gradient_section .menu li a {
+.gradient_section  a {
     color: #00c5cd;
-    display: inline-block;
-    padding-bottom: 10px;
-    
 }
 
 /*fine sesta sezione*/
@@ -401,7 +400,7 @@ footer .col_menu li a {
   color: #031d4e;/*Colore del Testo*/
   background: #D0D0D0;/*Sfondo*/
   border-radius: 10px;/*Grandezza raggio*/
-  background: linear-gradient(top, #A0A0A0 , #D0D0D0);/* Gradienti CSS3 consentono di visualizzare transizioni uniformi tra due o più colori specificati. */
+  
 }
 
 .speech_bubbles:after {
@@ -457,7 +456,7 @@ footer .col_menu li a {
       color: #031d4e;/*Colore del Testo*/
       background: #D0D0D0;/*Sfondo*/
       border-radius: 10px;/*Grandezza raggio*/
-      background: linear-gradient(top, #A0A0A0 , #D0D0D0);/* Gradienti CSS3 consentono di visualizzare transizioni uniformi tra due o più colori specificati. */
+      
     }
     
     .speech_bubbles:after {
