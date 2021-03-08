@@ -67,6 +67,12 @@ img {
     margin: 0 auto;
 }
 
+.jumbo .google img {
+    width: 4%;
+    position: absolute;
+    left: 10px;   
+}
+
 .form_custom {
     
     background-color: white;
@@ -95,6 +101,7 @@ img {
     color: #767676;
     border: none;
     box-shadow: 1px 1px 1px #767676;
+    position: relative;
 }
 
 /*section:images*/
@@ -170,11 +177,11 @@ img {
     padding-bottom: 50px;
 }
 .sub_col img {
-    width: 18%;
+    width: 15%;
 }
 
 .inner_content {
-    width: 50%;
+    /* width: 50%; */
 }
 /*fine third section*/
 
@@ -183,22 +190,31 @@ img {
 .fourth_section {
     background-color: #f3f5f9;
     text-align: center;
-    position: relative;
+    
 }
 
 .text {
-    padding-top: 40px ;
-}
-.fourth_section a {
-    font-size: 20px;
-    position: absolute;
-    top: 250px;
+    padding: 40px 0;
 }
 
-.fourth_section img {
-    padding: 60px 0;
-    width: 60%;
-    height: auto;
+.slider-container {
+    padding: 0 10%;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
 }
 
 .fourth_section .menu li {
